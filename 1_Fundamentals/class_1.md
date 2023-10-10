@@ -1,0 +1,5 @@
+## Resumen
+
+Durante la reunión, se presentó la capacitación en ingeniería de Machine Learning y se discutieron las herramientas básicas necesarias para trabajar en ella. Se abordó el tema de la línea de comandos y se discutió la herramienta Git, así como la importancia de crear repositorios para el curso y compartir archivos con Pat. También se discutió la necesidad de un sistema de control de versiones para evitar la duplicación de información y dificultades para gestionar cambios en documentos.
+
+Además, se habló sobre la importancia del versionamiento y la colaboración en proyectos de tecnología, y se explicó cómo crear ramas en un repositorio para evitar editar sobre la marcha y cómo combinarlas con la rama principal. También se discutió la importancia de tener una estrategia clara para manejar repositorios y ramas en proyectos de software, especialmente cuando se trabaja con un equipo grande. Finalmente, se presentó el programa Estudio Col Ess y se discutió su uso efectivo para la edición y gestión de archivos de texto plano.
