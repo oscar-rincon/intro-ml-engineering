@@ -65,7 +65,7 @@ Si deseas contribuir a este curso agregando contenido, corrigiendo errores o mej
 
 ## Arbol actual del repositorio
 
-```
+``` bash
 .
 ├── 1_Fundamentals
 │   └── 1_class_notes.md
