@@ -1,6 +1,6 @@
 # Introducción a la Ingeniería de Machine Learning
 
-Este repositorio contiene el material del curso "Introducción a la Ingeniería de Machine Learning" que estoy siguiendo como estudiante, bajo la dirección del profesor Santiago Echeverri Valencia (santiago.echeverriv@udea.edu.co). En este curso, exploraremos los conceptos fundamentales de la ingeniería de machine learning, así como las herramientas y técnicas necesarias para desarrollar sistemas de machine learning de manera efectiva.
+Este repositorio contiene el material del curso "Introducción a la Ingeniería de Machine Learning" que estoy siguiendo como estudiante en la Universidad de Antioquia, bajo la dirección del profesor Santiago Echeverri Valencia (santiago.echeverriv@udea.edu.co). En este curso, exploraremos los conceptos fundamentales de la ingeniería de machine learning, así como las herramientas y técnicas necesarias para desarrollar sistemas de machine learning de manera efectiva.
 
 ## Contenido del Curso
 
