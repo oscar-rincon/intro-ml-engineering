@@ -63,3 +63,14 @@ Siéntete libre de explorar y utilizar este repositorio para aprender sobre la i
 
 Si deseas contribuir a este curso agregando contenido, corrigiendo errores o mejorando la estructura, te invitamos a hacerlo. ¡Esperamos tus contribuciones!
 
+## Arbol actual del repositorio
+
+.
+├── 1_Fundamentals
+├── 2_MLOps
+├── 3_MLflow
+├── 4_Airflow
+├── 5_Deployment
+├── 6_Monitoring
+├── LICENSE
+└── README.md
