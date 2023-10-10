@@ -67,10 +67,16 @@ Si deseas contribuir a este curso agregando contenido, corrigiendo errores o mej
 
 .
 ├── 1_Fundamentals
+│   └── 1_class_notes.md
 ├── 2_MLOps
+│   └── 2_class_notes.md
 ├── 3_MLflow
+│   └── 3_class_notes.md
 ├── 4_Airflow
+│   └── 4_class_notes.md
 ├── 5_Deployment
+│   └── 5_class_notes.md
 ├── 6_Monitoring
+│   └── 6_class_notes.md
 ├── LICENSE
 └── README.md
