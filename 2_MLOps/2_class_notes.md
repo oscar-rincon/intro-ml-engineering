@@ -24,11 +24,18 @@ Se utilizo pip install para intalar vitual env
 pip install virtualenv
 ```
 
-``` bash
-pip install virtualenv
-```
+**¿Cómo instalar un ambiente para un repositiorio solo?**
+
 
 pip freeze nos muestra que tenemos instalado en este momento
+
+**¿Qué es mlflow?**
+MLflow es una plataforma de código abierto desarrollada por Databricks para administrar todo el ciclo de vida del desarrollo de aplicaciones de aprendizaje automático (machine learning). 
+
+**¿Qué es mlops?**
+El objetivo principal de MLOps es automatizar y optimizar todo el ciclo de vida de los modelos de ML, desde la construcción y entrenamiento hasta la implementación y monitoreo en producción. MLOps se basa en las mejores prácticas de DevOps pero se enfoca específicamente en los desafíos únicos que enfrenta el desarrollo y la implementación de modelos de ML.
+
+
 
 ## Actividad  
 
