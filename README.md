@@ -68,17 +68,55 @@ Si deseas contribuir a este curso agregando contenido, corrigiendo errores o mej
 ``` bash
 .
 ├── 1_Fundamentals
-│   └── 1_class_notes.md
+│   └── 1_class_notes.md
 ├── 2_MLOps
-│   └── 2_class_notes.md
+│   ├── 2_class_notes.md
+│   └── tutorial.ipynb
 ├── 3_MLflow
-│   └── 3_class_notes.md
+│   ├── 3_class_notes.md
+│   ├── automobileEDA.csv
+│   ├── automobileEDA.csv:Zone.Identifier
+│   ├── image-1.png
+│   ├── image-2.png
+│   ├── image-3.png
+│   ├── image.png
+│   ├── main.py
+│   └── mlruns
 ├── 4_Airflow
-│   └── 4_class_notes.md
+│   ├── 4_class_notes.md
+│   ├── image-1.png
+│   ├── image-2.png
+│   ├── image-3.png
+│   ├── image-4.png
+│   ├── image-5.png
+│   ├── image.png
+│   ├── logs
+│   └── primerdag.py
 ├── 5_Deployment
-│   └── 5_class_notes.md
+│   └── 5_class_notes.md
 ├── 6_Monitoring
-│   └── 6_class_notes.md
+│   └── 6_class_notes.md
 ├── LICENSE
-└── README.md
+├── README.md
+├── airflow
+│   ├── airflow
+│   ├── airflow-webserver.pid
+│   ├── airflow.cfg
+│   ├── airflow.db
+│   ├── dags
+│   ├── logs
+│   └── webserver_config.py
+├── logs
+├── requirements.txt
+└── venv
+    ├── bin
+    ├── etc
+    ├── generated
+    ├── include
+    ├── lib
+    ├── lib64 -> lib
+    ├── pyvenv.cfg
+    └── share
+
+21 directories, 29 files
 ```
