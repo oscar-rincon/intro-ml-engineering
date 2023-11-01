@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1698521372644
+current_stage: None
+description: ''
+last_updated_timestamp: 1698521372644
+name: mlflow_clase_lregression_model
+run_id: dc3089512dd542799a1b0d89e9d0d5dc
+run_link: ''
+source: file:///home/oscar_rincon/code/oscar-rincon/ml-engineering-course/3_MLflow/mlruns/990781473701580341/dc3089512dd542799a1b0d89e9d0d5dc/artifacts/sklear-model
+status: READY
+status_message: null
+user_id: null
+version: 2

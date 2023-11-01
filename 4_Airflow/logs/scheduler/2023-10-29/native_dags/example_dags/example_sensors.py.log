@@ -1,0 +1,33 @@
+[2023-10-28T19:18:25.893-0500] {processor.py:157} INFO - Started process (PID=77509) to work on /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-28T19:18:25.894-0500] {processor.py:829} INFO - Processing file /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-10-28T19:18:25.895-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:25.895-0500] {dagbag.py:539} INFO - Filling up the DagBag from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-28T19:18:25.905-0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-28T19:18:26.016-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:26.016-0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-28T19:18:26.030-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:26.030-0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-28T19:18:26.042-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:26.041-0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-28T19:18:26.042-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:26.042-0500] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_sensors' as access control is unset.
+[2023-10-28T19:18:26.042-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:26.042-0500] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-28T19:18:26.051-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:26.051-0500] {dag.py:2937} INFO - Creating ORM DAG for example_sensors
+[2023-10-28T19:18:26.051-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:26.051-0500] {dag.py:3696} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-10-28T19:18:26.080-0500] {processor.py:179} INFO - Processing /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.189 seconds
+[2023-10-28T19:19:12.774-0500] {processor.py:157} INFO - Started process (PID=77563) to work on /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-28T19:19:12.814-0500] {processor.py:829} INFO - Processing file /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-10-28T19:19:12.815-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:19:12.815-0500] {dagbag.py:539} INFO - Filling up the DagBag from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-28T19:19:12.829-0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-28T19:19:12.847-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:19:12.847-0500] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-28T19:19:12.859-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:19:12.858-0500] {dag.py:3696} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-10-28T19:19:12.885-0500] {processor.py:179} INFO - Processing /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.113 seconds
+[2023-10-28T19:29:01.230-0500] {processor.py:157} INFO - Started process (PID=80719) to work on /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-28T19:29:01.270-0500] {processor.py:829} INFO - Processing file /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-10-28T19:29:01.271-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:29:01.270-0500] {dagbag.py:539} INFO - Filling up the DagBag from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-28T19:29:01.281-0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-28T19:29:01.301-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:29:01.301-0500] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-28T19:29:01.311-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:29:01.311-0500] {dag.py:3696} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-10-28T19:29:01.335-0500] {processor.py:179} INFO - Processing /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.108 seconds
+[2023-10-28T19:29:53.657-0500] {processor.py:157} INFO - Started process (PID=80847) to work on /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-28T19:29:53.698-0500] {processor.py:829} INFO - Processing file /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-10-28T19:29:53.700-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:29:53.699-0500] {dagbag.py:539} INFO - Filling up the DagBag from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-28T19:29:53.711-0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-10-28T19:29:53.727-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:29:53.727-0500] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-28T19:29:53.736-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:29:53.736-0500] {dag.py:3696} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-10-28T19:29:53.758-0500] {processor.py:179} INFO - Processing /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.103 seconds

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/oscar_rincon/code/oscar-rincon/ml-engineering-course/3_MLflow/mlruns/990781473701580341/e3ccc26a9a8c42b5857855db8a917509/artifacts
+end_time: 1698519932722
+entry_point_name: ''
+experiment_id: '990781473701580341'
+lifecycle_stage: active
+run_id: e3ccc26a9a8c42b5857855db8a917509
+run_name: rogue-shrike-668
+run_uuid: e3ccc26a9a8c42b5857855db8a917509
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698519932677
+status: 4
+tags: []
+user_id: oscar_rincon

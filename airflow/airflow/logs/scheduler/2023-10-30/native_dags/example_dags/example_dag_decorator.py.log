@@ -1,0 +1,13 @@
+[2023-10-29T23:27:30.362-0500] {processor.py:153} INFO - Started process (PID=218321) to work on /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29T23:27:30.363-0500] {processor.py:743} INFO - Processing file /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-10-29T23:27:30.363-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:30.363-0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29T23:27:30.381-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:30.381-0500] {taskmixin.py:205} WARNING - Dependency <Task(_PythonDecoratedOperator): prepare_email>, send_email already registered for DAG: example_dag_decorator
+[2023-10-29T23:27:30.382-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:30.382-0500] {taskmixin.py:205} WARNING - Dependency <Task(EmailOperator): send_email>, prepare_email already registered for DAG: example_dag_decorator
+[2023-10-29T23:27:30.393-0500] {processor.py:753} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-10-29T23:27:30.562-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:30.562-0500] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_dag_decorator
+[2023-10-29T23:27:30.571-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:30.571-0500] {manager.py:504} INFO - Created Permission View: can read on DAG:example_dag_decorator
+[2023-10-29T23:27:30.581-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:30.581-0500] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_dag_decorator
+[2023-10-29T23:27:30.581-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:30.581-0500] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-10-29T23:27:30.591-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:30.591-0500] {dag.py:2697} INFO - Creating ORM DAG for example_dag_decorator
+[2023-10-29T23:27:30.599-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:30.599-0500] {dag.py:3423} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-10-29T23:27:30.618-0500] {processor.py:175} INFO - Processing /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py took 0.258 seconds

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/oscar_rincon/code/oscar-rincon/ml-engineering-course/3_MLflow/mlruns/990781473701580341/e2abf42ef6f441f499d4c689641f888d/artifacts
+end_time: 1698519959228
+entry_point_name: ''
+experiment_id: '990781473701580341'
+lifecycle_stage: active
+run_id: e2abf42ef6f441f499d4c689641f888d
+run_name: awesome-asp-390
+run_uuid: e2abf42ef6f441f499d4c689641f888d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698519956647
+status: 3
+tags: []
+user_id: oscar_rincon

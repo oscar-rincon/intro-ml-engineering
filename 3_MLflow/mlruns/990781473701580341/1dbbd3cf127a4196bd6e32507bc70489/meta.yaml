@@ -1,0 +1,15 @@
+artifact_uri: file:///home/oscar_rincon/code/oscar-rincon/ml-engineering-course/3_MLflow/mlruns/990781473701580341/1dbbd3cf127a4196bd6e32507bc70489/artifacts
+end_time: 1698518075167
+entry_point_name: ''
+experiment_id: '990781473701580341'
+lifecycle_stage: active
+run_id: 1dbbd3cf127a4196bd6e32507bc70489
+run_name: selective-cat-747
+run_uuid: 1dbbd3cf127a4196bd6e32507bc70489
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698518075137
+status: 4
+tags: []
+user_id: oscar_rincon

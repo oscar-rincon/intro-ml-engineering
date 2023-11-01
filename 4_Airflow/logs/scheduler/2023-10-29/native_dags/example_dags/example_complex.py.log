@@ -1,0 +1,33 @@
+[2023-10-28T19:18:23.426-0500] {processor.py:157} INFO - Started process (PID=77507) to work on /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-10-28T19:18:23.427-0500] {processor.py:829} INFO - Processing file /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-28T19:18:23.428-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:23.428-0500] {dagbag.py:539} INFO - Filling up the DagBag from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-10-28T19:18:23.439-0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-10-28T19:18:23.551-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:23.551-0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-28T19:18:23.562-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:23.562-0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-28T19:18:23.572-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:23.572-0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-10-28T19:18:23.572-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:23.572-0500] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_complex' as access control is unset.
+[2023-10-28T19:18:23.573-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:23.572-0500] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-28T19:18:23.582-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:23.582-0500] {dag.py:2937} INFO - Creating ORM DAG for example_complex
+[2023-10-28T19:18:23.582-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:18:23.582-0500] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-28T19:18:23.608-0500] {processor.py:179} INFO - Processing /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.184 seconds
+[2023-10-28T19:19:10.400-0500] {processor.py:157} INFO - Started process (PID=77561) to work on /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-10-28T19:19:10.440-0500] {processor.py:829} INFO - Processing file /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-28T19:19:10.441-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:19:10.441-0500] {dagbag.py:539} INFO - Filling up the DagBag from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-10-28T19:19:10.454-0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-10-28T19:19:10.477-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:19:10.477-0500] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-28T19:19:10.487-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:19:10.487-0500] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-28T19:19:10.508-0500] {processor.py:179} INFO - Processing /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.111 seconds
+[2023-10-28T19:28:58.852-0500] {processor.py:157} INFO - Started process (PID=80717) to work on /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-10-28T19:28:58.892-0500] {processor.py:829} INFO - Processing file /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-28T19:28:58.895-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:28:58.894-0500] {dagbag.py:539} INFO - Filling up the DagBag from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-10-28T19:28:58.908-0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-10-28T19:28:58.935-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:28:58.935-0500] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-28T19:28:58.947-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:28:58.947-0500] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-28T19:28:58.972-0500] {processor.py:179} INFO - Processing /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.124 seconds
+[2023-10-28T19:29:46.119-0500] {processor.py:157} INFO - Started process (PID=80840) to work on /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-10-28T19:29:46.160-0500] {processor.py:829} INFO - Processing file /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-28T19:29:46.162-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:29:46.161-0500] {dagbag.py:539} INFO - Filling up the DagBag from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-10-28T19:29:46.175-0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-10-28T19:29:46.196-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:29:46.196-0500] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-28T19:29:46.205-0500] {logging_mixin.py:151} INFO - [2023-10-28T19:29:46.205-0500] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-28T19:29:46.227-0500] {processor.py:179} INFO - Processing /home/oscar_rincon/.pyenv/versions/3.10.6/envs/oscar_rincon/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.110 seconds

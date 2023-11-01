@@ -26,7 +26,10 @@ pip install virtualenv
 
 **¿Cómo instalar un ambiente para un repositiorio solo?**
 
-
+``` bash
+python -m venv venv_ml_engineering
+source venv_ml_engineering/bin/activate
+```
 pip freeze nos muestra que tenemos instalado en este momento
 
 **¿Qué es mlflow?**

@@ -1,0 +1,42 @@
+[2023-10-31T21:27:39.410-0500] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: fhv_ml_model_training.build_machine_learning_model manual__2023-11-01T02:22:31.796109+00:00 [queued]>
+[2023-10-31T21:27:39.421-0500] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: fhv_ml_model_training.build_machine_learning_model manual__2023-11-01T02:22:31.796109+00:00 [queued]>
+[2023-10-31T21:27:39.421-0500] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-31T21:27:39.421-0500] {taskinstance.py:1284} INFO - Starting attempt 2 of 2
+[2023-10-31T21:27:39.421-0500] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-31T21:27:39.432-0500] {taskinstance.py:1304} INFO - Executing <Task(_PythonDecoratedOperator): build_machine_learning_model> on 2023-11-01 02:22:31.796109+00:00
+[2023-10-31T21:27:39.438-0500] {standard_task_runner.py:55} INFO - Started process 602373 to run task
+[2023-10-31T21:27:39.441-0500] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'fhv_ml_model_training', 'build_machine_learning_model', 'manual__2023-11-01T02:22:31.796109+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/dag_train_ml_model.py', '--cfg-path', '/tmp/tmp6bbauq8i']
+[2023-10-31T21:27:39.443-0500] {standard_task_runner.py:83} INFO - Job 34: Subtask build_machine_learning_model
+[2023-10-31T21:27:39.538-0500] {task_command.py:389} INFO - Running <TaskInstance: fhv_ml_model_training.build_machine_learning_model manual__2023-11-01T02:22:31.796109+00:00 [running]> on host DESKTOP-D8R6NL8.
+[2023-10-31T21:27:39.638-0500] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=fhv_ml_model_training
+AIRFLOW_CTX_TASK_ID=build_machine_learning_model
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-01T02:22:31.796109+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-11-01T02:22:31.796109+00:00
+[2023-10-31T21:27:39.639-0500] {dag_train_ml_model.py:109} INFO - Loading the train and validation datasets...
+[2023-10-31T21:27:42.564-0500] {dag_train_ml_model.py:112} INFO - The datasets were loaded properly!!!
+[2023-10-31T21:27:42.564-0500] {dag_train_ml_model.py:116} INFO - Pre-processing the train and validation datasets...
+[2023-10-31T21:27:42.610-0500] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/decorators/base.py", line 217, in execute
+    return_value = super().execute(context)
+  File "/home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/oscar_rincon/code/oscar-rincon/ml-engineering-course/airflow/dags/dag_train_ml_model.py", line 117, in buid_machine_learning_model
+    df_train_processed = prepare_features(df_train, categorical)
+  File "/home/oscar_rincon/code/oscar-rincon/ml-engineering-course/airflow/dags/dag_train_ml_model.py", line 27, in prepare_features
+    df = df[(df.drop_duration >= 1) & (df.duration <= 60)].copy()
+  File "/home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 5989, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'drop_duration'
+[2023-10-31T21:27:42.642-0500] {taskinstance.py:1322} INFO - Marking task as FAILED. dag_id=fhv_ml_model_training, task_id=build_machine_learning_model, execution_date=20231101T022231, start_date=20231101T022739, end_date=20231101T022742
+[2023-10-31T21:27:42.694-0500] {standard_task_runner.py:100} ERROR - Failed to execute job 34 for task build_machine_learning_model ('DataFrame' object has no attribute 'drop_duration'; 602373)
+[2023-10-31T21:27:42.711-0500] {local_task_job.py:159} INFO - Task exited with return code 1
+[2023-10-31T21:27:42.737-0500] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

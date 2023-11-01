@@ -1,0 +1,18 @@
+[2023-10-29T23:27:15.409-0500] {processor.py:153} INFO - Started process (PID=218241) to work on /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-10-29T23:27:15.409-0500] {processor.py:743} INFO - Processing file /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-10-29T23:27:15.410-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:15.410-0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-10-29T23:27:15.440-0500] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-10-29T23:27:15.596-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:15.596-0500] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2023-10-29T23:27:15.605-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:15.605-0500] {manager.py:504} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2023-10-29T23:27:15.617-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:15.616-0500] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2023-10-29T23:27:15.617-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:15.617-0500] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-10-29T23:27:15.633-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:15.632-0500] {dag.py:2697} INFO - Creating ORM DAG for example_sla_dag
+[2023-10-29T23:27:15.651-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:15.651-0500] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2023-10-30T04:24:00+00:00, run_after=2023-10-30T04:26:00+00:00
+[2023-10-29T23:27:15.677-0500] {processor.py:175} INFO - Processing /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.270 seconds
+[2023-10-29T23:28:27.543-0500] {processor.py:153} INFO - Started process (PID=218691) to work on /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-10-29T23:28:27.544-0500] {processor.py:743} INFO - Processing file /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-10-29T23:28:27.545-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:28:27.544-0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-10-29T23:28:27.566-0500] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-10-29T23:28:27.591-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:28:27.591-0500] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-10-29T23:28:27.608-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:28:27.607-0500] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2023-10-30T04:26:00+00:00, run_after=2023-10-30T04:28:00+00:00
+[2023-10-29T23:28:27.628-0500] {processor.py:175} INFO - Processing /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.087 seconds

@@ -1,0 +1,28 @@
+[2023-10-31T17:06:35.164-0500] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: Dependencies_Operator.task_2 scheduled__2023-10-31T00:00:00+00:00 [queued]>
+[2023-10-31T17:06:35.181-0500] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: Dependencies_Operator.task_2 scheduled__2023-10-31T00:00:00+00:00 [queued]>
+[2023-10-31T17:06:35.181-0500] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-31T17:06:35.182-0500] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2023-10-31T17:06:35.182-0500] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-31T17:06:35.200-0500] {taskinstance.py:1304} INFO - Executing <Task(BashOperator): task_2> on 2023-10-31 00:00:00+00:00
+[2023-10-31T17:06:35.206-0500] {standard_task_runner.py:55} INFO - Started process 421133 to run task
+[2023-10-31T17:06:35.209-0500] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'Dependencies_Operator', 'task_2', 'scheduled__2023-10-31T00:00:00+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/dependencias.py', '--cfg-path', '/tmp/tmpvi2jo6j2']
+[2023-10-31T17:06:35.211-0500] {standard_task_runner.py:83} INFO - Job 24: Subtask task_2
+[2023-10-31T17:06:35.312-0500] {task_command.py:389} INFO - Running <TaskInstance: Dependencies_Operator.task_2 scheduled__2023-10-31T00:00:00+00:00 [running]> on host DESKTOP-D8R6NL8.
+[2023-10-31T17:06:35.408-0500] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Dependencies_Operator
+AIRFLOW_CTX_TASK_ID=task_2
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-10-31T00:00:00+00:00
+[2023-10-31T17:06:35.409-0500] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-10-31T17:06:35.410-0500] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo "Hola Mundo en MLOps tarea 2"']
+[2023-10-31T17:06:35.417-0500] {subprocess.py:86} INFO - Output:
+[2023-10-31T17:06:35.420-0500] {subprocess.py:93} INFO - Hola Mundo en MLOps tarea 2
+[2023-10-31T17:06:35.421-0500] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-10-31T17:06:35.471-0500] {taskinstance.py:1322} INFO - Marking task as SUCCESS. dag_id=Dependencies_Operator, task_id=task_2, execution_date=20231031T000000, start_date=20231031T220635, end_date=20231031T220635
+[2023-10-31T17:06:35.502-0500] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-10-31T17:06:35.534-0500] {taskinstance.py:2582} INFO - 2 downstream tasks scheduled from follow-on schedule check

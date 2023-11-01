@@ -1,0 +1,11 @@
+[2023-10-29T23:27:38.375-0500] {processor.py:153} INFO - Started process (PID=218364) to work on /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-10-29T23:27:38.376-0500] {processor.py:743} INFO - Processing file /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-10-29T23:27:38.376-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:38.376-0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-10-29T23:27:38.389-0500] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-10-29T23:27:38.539-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:38.539-0500] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2023-10-29T23:27:38.550-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:38.550-0500] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2023-10-29T23:27:38.560-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:38.560-0500] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2023-10-29T23:27:38.560-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:38.560-0500] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-10-29T23:27:38.569-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:38.569-0500] {dag.py:2697} INFO - Creating ORM DAG for tutorial_dag
+[2023-10-29T23:27:38.576-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:38.576-0500] {dag.py:3423} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-10-29T23:27:38.596-0500] {processor.py:175} INFO - Processing /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.225 seconds

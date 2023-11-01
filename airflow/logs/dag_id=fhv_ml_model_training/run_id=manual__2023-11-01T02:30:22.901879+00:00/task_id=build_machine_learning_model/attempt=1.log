@@ -1,0 +1,36 @@
+[2023-10-31T21:30:27.997-0500] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: fhv_ml_model_training.build_machine_learning_model manual__2023-11-01T02:30:22.901879+00:00 [queued]>
+[2023-10-31T21:30:28.009-0500] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: fhv_ml_model_training.build_machine_learning_model manual__2023-11-01T02:30:22.901879+00:00 [queued]>
+[2023-10-31T21:30:28.009-0500] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-31T21:30:28.009-0500] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2023-10-31T21:30:28.010-0500] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-31T21:30:28.022-0500] {taskinstance.py:1304} INFO - Executing <Task(_PythonDecoratedOperator): build_machine_learning_model> on 2023-11-01 02:30:22.901879+00:00
+[2023-10-31T21:30:28.027-0500] {standard_task_runner.py:55} INFO - Started process 604147 to run task
+[2023-10-31T21:30:28.030-0500] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'fhv_ml_model_training', 'build_machine_learning_model', 'manual__2023-11-01T02:30:22.901879+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/dag_train_ml_model.py', '--cfg-path', '/tmp/tmpg39iz5o7']
+[2023-10-31T21:30:28.032-0500] {standard_task_runner.py:83} INFO - Job 36: Subtask build_machine_learning_model
+[2023-10-31T21:30:28.122-0500] {task_command.py:389} INFO - Running <TaskInstance: fhv_ml_model_training.build_machine_learning_model manual__2023-11-01T02:30:22.901879+00:00 [running]> on host DESKTOP-D8R6NL8.
+[2023-10-31T21:30:28.219-0500] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=fhv_ml_model_training
+AIRFLOW_CTX_TASK_ID=build_machine_learning_model
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-01T02:30:22.901879+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-11-01T02:30:22.901879+00:00
+[2023-10-31T21:30:28.220-0500] {dag_train_ml_model.py:109} INFO - Loading the train and validation datasets...
+[2023-10-31T21:30:31.044-0500] {dag_train_ml_model.py:112} INFO - The datasets were loaded properly!!!
+[2023-10-31T21:30:31.044-0500] {dag_train_ml_model.py:116} INFO - Pre-processing the train and validation datasets...
+[2023-10-31T21:30:32.697-0500] {dag_train_ml_model.py:30} INFO - The mean duration of training is 20.122056271471596
+[2023-10-31T21:30:35.539-0500] {dag_train_ml_model.py:32} INFO - The mean duration of validation is 19.373331316210333
+[2023-10-31T21:30:36.558-0500] {dag_train_ml_model.py:119} INFO - The datasets were preprocessed properly!!!
+[2023-10-31T21:30:36.559-0500] {dag_train_ml_model.py:121} INFO - Start the training of the model...
+[2023-10-31T21:30:42.085-0500] {dag_train_ml_model.py:45} INFO - The shape of X_train is (1131728, 523)
+[2023-10-31T21:30:42.085-0500] {dag_train_ml_model.py:46} INFO - The DictVectorizar has 523 features
+[2023-10-31T21:30:46.065-0500] {dag_train_ml_model.py:52} INFO - Tle RMSE of train is: 11.940324455027724
+[2023-10-31T21:30:49.739-0500] {dag_train_ml_model.py:67} INFO - The RMSE of validation is: 11.737910090402316
+[2023-10-31T21:30:49.802-0500] {dag_train_ml_model.py:124} INFO - The model was trained properly!!!
+[2023-10-31T21:30:49.879-0500] {python.py:177} INFO - Done. Returned value was: {'train_rmse': 11.940324455027724, 'val_rmse': 11.737910090402316}
+[2023-10-31T21:30:49.979-0500] {taskinstance.py:1322} INFO - Marking task as SUCCESS. dag_id=fhv_ml_model_training, task_id=build_machine_learning_model, execution_date=20231101T023022, start_date=20231101T023027, end_date=20231101T023049
+[2023-10-31T21:30:50.024-0500] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-10-31T21:30:50.047-0500] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/oscar_rincon/code/oscar-rincon/ml-engineering-course/3_MLflow/mlruns/990781473701580341/07ee483a79804b2ab0eab6707a0379b4/artifacts
+end_time: 1698519821621
+entry_point_name: ''
+experiment_id: '990781473701580341'
+lifecycle_stage: active
+run_id: 07ee483a79804b2ab0eab6707a0379b4
+run_name: resilient-ram-85
+run_uuid: 07ee483a79804b2ab0eab6707a0379b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698519821588
+status: 4
+tags: []
+user_id: oscar_rincon

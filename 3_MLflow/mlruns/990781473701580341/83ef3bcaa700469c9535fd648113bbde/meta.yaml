@@ -1,0 +1,15 @@
+artifact_uri: file:///home/oscar_rincon/code/oscar-rincon/ml-engineering-course/3_MLflow/mlruns/990781473701580341/83ef3bcaa700469c9535fd648113bbde/artifacts
+end_time: 1698519907924
+entry_point_name: ''
+experiment_id: '990781473701580341'
+lifecycle_stage: active
+run_id: 83ef3bcaa700469c9535fd648113bbde
+run_name: merciful-goose-528
+run_uuid: 83ef3bcaa700469c9535fd648113bbde
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698519907881
+status: 4
+tags: []
+user_id: oscar_rincon

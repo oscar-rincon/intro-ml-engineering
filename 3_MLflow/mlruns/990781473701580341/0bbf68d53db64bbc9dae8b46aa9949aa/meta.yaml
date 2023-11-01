@@ -1,0 +1,15 @@
+artifact_uri: file:///home/oscar_rincon/code/oscar-rincon/ml-engineering-course/3_MLflow/mlruns/990781473701580341/0bbf68d53db64bbc9dae8b46aa9949aa/artifacts
+end_time: 1698518526216
+entry_point_name: ''
+experiment_id: '990781473701580341'
+lifecycle_stage: active
+run_id: 0bbf68d53db64bbc9dae8b46aa9949aa
+run_name: learned-whale-546
+run_uuid: 0bbf68d53db64bbc9dae8b46aa9949aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698518526184
+status: 3
+tags: []
+user_id: oscar_rincon

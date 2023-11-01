@@ -1,0 +1,25 @@
+[2023-10-29T23:27:00.057-0500] {processor.py:153} INFO - Started process (PID=218143) to work on /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29T23:27:00.058-0500] {processor.py:743} INFO - Processing file /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-29T23:27:00.058-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:00.058-0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29T23:27:00.072-0500] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29T23:27:00.166-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:00.165-0500] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial
+[2023-10-29T23:27:00.178-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:00.177-0500] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial
+[2023-10-29T23:27:00.188-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:00.188-0500] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial
+[2023-10-29T23:27:00.188-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:00.188-0500] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-10-29T23:27:00.197-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:00.196-0500] {dag.py:2697} INFO - Creating ORM DAG for tutorial
+[2023-10-29T23:27:00.202-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:00.202-0500] {dag.py:3423} INFO - Setting next_dagrun for tutorial to 2023-10-29T04:27:00.202422+00:00, run_after=2023-10-30T04:27:00.202422+00:00
+[2023-10-29T23:27:00.228-0500] {processor.py:175} INFO - Processing /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.174 seconds
+[2023-10-29T23:27:43.715-0500] {processor.py:153} INFO - Started process (PID=218402) to work on /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29T23:27:43.754-0500] {processor.py:743} INFO - Processing file /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-29T23:27:43.755-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:43.755-0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29T23:27:43.766-0500] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29T23:27:43.790-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:43.790-0500] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-10-29T23:27:43.805-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:43.805-0500] {dag.py:3423} INFO - Setting next_dagrun for tutorial to 2023-10-29T04:27:43.805543+00:00, run_after=2023-10-30T04:27:43.805543+00:00
+[2023-10-29T23:27:43.825-0500] {processor.py:175} INFO - Processing /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.112 seconds
+[2023-10-29T23:28:12.273-0500] {processor.py:153} INFO - Started process (PID=218607) to work on /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29T23:28:12.313-0500] {processor.py:743} INFO - Processing file /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-10-29T23:28:12.315-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:28:12.314-0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29T23:28:12.331-0500] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-10-29T23:28:12.353-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:28:12.353-0500] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-10-29T23:28:12.367-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:28:12.367-0500] {dag.py:3423} INFO - Setting next_dagrun for tutorial to 2023-10-29T04:28:12.367064+00:00, run_after=2023-10-30T04:28:12.367064+00:00
+[2023-10-29T23:28:12.390-0500] {processor.py:175} INFO - Processing /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.119 seconds

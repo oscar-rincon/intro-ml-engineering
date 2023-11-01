@@ -1,0 +1,11 @@
+[2023-10-29T23:27:29.021-0500] {processor.py:153} INFO - Started process (PID=218320) to work on /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-10-29T23:27:29.022-0500] {processor.py:743} INFO - Processing file /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-10-29T23:27:29.022-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:29.022-0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-10-29T23:27:29.047-0500] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-10-29T23:27:29.190-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:29.190-0500] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api
+[2023-10-29T23:27:29.203-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:29.203-0500] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api
+[2023-10-29T23:27:29.216-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:29.216-0500] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api
+[2023-10-29T23:27:29.217-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:29.216-0500] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-10-29T23:27:29.227-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:29.226-0500] {dag.py:2697} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2023-10-29T23:27:29.236-0500] {logging_mixin.py:137} INFO - [2023-10-29T23:27:29.235-0500] {dag.py:3423} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-10-29T23:27:29.260-0500] {processor.py:175} INFO - Processing /home/oscar_rincon/code/oscar-rincon/ml-engineering-course/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.241 seconds

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/oscar_rincon/code/oscar-rincon/ml-engineering-course/3_MLflow/mlruns/990781473701580341/e6a75e3bf6b24d64bba8db28b05ed55b/artifacts
+end_time: 1698519892642
+entry_point_name: ''
+experiment_id: '990781473701580341'
+lifecycle_stage: active
+run_id: e6a75e3bf6b24d64bba8db28b05ed55b
+run_name: righteous-crane-486
+run_uuid: e6a75e3bf6b24d64bba8db28b05ed55b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698519892610
+status: 4
+tags: []
+user_id: oscar_rincon
